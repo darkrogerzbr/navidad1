@@ -10,8 +10,9 @@ import Danzas from './danzas.jsx'
 createRoot(document.getElementById('root')).render(
   <BrowserRouter basename='/navidad1'>
   <App>
-    <Danzas></Danzas>
+    
   </App>
+  <Danzas></Danzas>
   
   
   </BrowserRouter>,
