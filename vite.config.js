@@ -3,7 +3,7 @@ import react from '@vitejs/plugin-react'
 
 // https://vite.dev/config/
 export default defineConfig({
-  
+  base: '/navidad1/',
   plugins: [react()],
-  base: '/navidad1/'
+  
 })
