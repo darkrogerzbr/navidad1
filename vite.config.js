@@ -5,5 +5,5 @@ import react from '@vitejs/plugin-react'
 export default defineConfig({
   
   plugins: [react()],
-  base: '/navidad1/',
+  base: '/navidad1/'
 })
