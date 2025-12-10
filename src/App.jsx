@@ -1,4 +1,4 @@
-import { HashRouter, Link, Route, Routes } from "react-router-dom";
+import { Link, Route, Routes } from "react-router-dom";
 import Gastronomia from "./gastronomia";
 import Danzas from "./danzas";
 import Historia from "./historia";
@@ -7,7 +7,7 @@ import './App.css';
 
 function App() {
   return (
-    <HashRouter>
+  <>
       <nav className="navbar navbar-expand-lg bg-body-tertiary">
         <div className="container-fluid">
           <div className="collapse navbar-collapse" id="navbarNav">
@@ -16,13 +16,13 @@ function App() {
                 <Link className="nav-link active" to="/">Gastronomia</Link>
               </li>
               <li className="nav-item">
-                <Link className="nav-link active" to="#/danzas">Danzas</Link>
+                <Link className="nav-link active" to="/danzas">Danzas</Link>
               </li>
               <li className="nav-item">
-                <Link className="nav-link active" to="#/historia">Historia</Link>
+                <Link className="nav-link active" to="/historia">Historia</Link>
               </li>
               <li className="nav-item">
-                <Link className="nav-link active" to="#/acerca">Acerca</Link>
+                <Link className="nav-link active" to="/acerca">Acerca</Link>
               </li>
             </ul>
           </div>
@@ -35,7 +35,7 @@ function App() {
         <Route path="/historia" element={<Historia />} />
         <Route path="/acerca" element={<Acerca />} />
       </Routes>
-    </HashRouter>
+    </>
   );
 }
 
