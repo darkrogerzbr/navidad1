@@ -13,16 +13,17 @@ function App() {
     <div className="collapse navbar-collapse" id="navbarNav">
       <ul className="navbar-nav">
         <li className="nav-item">
-          <Link to="/">Gastronomia</Link>
+          
+          <a className="nav-link active" href="/">Gastronomia</a>
         </li>
         <li className="nav-item">
-          <Link to="danzas.jsx">Danzas</Link>
+          <a className="nav-link active" href="danzas">Danzas</a>
         </li>
         <li className="nav-item">
-          <Link to="historia.jsx">Historia</Link>
+          <a className="nav-link active" href="historia">Historia</a>
         </li>
         <li className="nav-item">
-          <Link to="acerca.jsx">Acerca</Link>
+          <a className="nav-link active" href="acerca">Acerca</a>
         </li>
         
       </ul>
