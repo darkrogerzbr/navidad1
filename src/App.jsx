@@ -1,4 +1,4 @@
-import { Link, Route, Routes } from "react-router-dom"
+import { HashRouter, Link, Route, Routes } from "react-router-dom"
 import Gastronomia from "./gastronomia"
 import Danzas from "./danzas"
 import Historia from "./historia"
@@ -32,13 +32,14 @@ function App() {
           
 
 
-
+      <HashRouter>
       <Routes>
         <Route path="/" element={<Gastronomia></Gastronomia>}></Route>
         <Route path="/danzas" element={<Danzas></Danzas>}></Route>
         <Route path="/historia" element={<Historia></Historia>}></Route>
         <Route path="/acerca" element={<Acerca></Acerca>}></Route>
       </Routes>
+      </HashRouter>
     </>
   )
 }
