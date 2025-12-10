@@ -9,9 +9,7 @@ import App from './App.jsx'
 
 createRoot(document.getElementById('root')).render(
   <BrowserRouter basename='/navidad1'>
-  <App>
-    
-  </App>
+  <App></App>
   
   
   
