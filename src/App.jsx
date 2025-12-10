@@ -17,7 +17,7 @@ function App() {
           <a className="nav-link active" href="/">Gastronomia</a>
         </li>
         <li className="nav-item">
-          <a className="nav-link active" href="danzas">Danzas</a>
+          <a className="nav-link active" href="danzas.jsx">Danzas</a>
         </li>
         <li className="nav-item">
           <a className="nav-link active" href="historia">Historia</a>
