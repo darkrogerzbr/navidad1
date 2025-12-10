@@ -7,8 +7,8 @@ import App from './App.jsx'
 
 
 
-createRoot(document.getElementById('root')).render(
-  <HashRouter basename='/navidad1'>
+ReactDOM.createRoot(document.getElementById('root')).render(
+  <HashRouter>
   <App>
   </App>
   </HashRouter>,
