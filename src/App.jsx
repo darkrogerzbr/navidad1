@@ -16,13 +16,13 @@ function App() {
           <Link to="/">Gastronomia</Link>
         </li>
         <li className="nav-item">
-          <Link to="/danzas.jsx">Danzas</Link>
+          <Link to="./danzas.jsx">Danzas</Link>
         </li>
         <li className="nav-item">
-          <Link to="/historia.jsx">Historia</Link>
+          <Link to="./historia.jsx">Historia</Link>
         </li>
         <li className="nav-item">
-          <Link to="/acerca.jsx">Acerca</Link>
+          <Link to="./acerca.jsx">Acerca</Link>
         </li>
         
       </ul>
