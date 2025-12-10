@@ -17,13 +17,13 @@ function App() {
           <a className="nav-link active" href="/">Gastronomia</a>
         </li>
         <li className="nav-item">
-          <a className="nav-link active" href="/danzas">Danzas</a>
+          <a className="nav-link active" href="#/danzas">Danzas</a>
         </li>
         <li className="nav-item">
-          <a className="nav-link active" href="/historia">Historia</a>
+          <a className="nav-link active" href="#/historia">Historia</a>
         </li>
         <li className="nav-item">
-          <a className="nav-link active" href="/acerca">Acerca</a>
+          <a className="nav-link active" href="#/acerca">Acerca</a>
         </li>
         
       </ul>
@@ -33,13 +33,15 @@ function App() {
           
 
 
-      
+      <HashRouter>
+
       <Routes>
         <Route path="/" element={<Gastronomia></Gastronomia>}></Route>
         <Route path="/danzas" element={<Danzas></Danzas>}></Route>
         <Route path="/historia" element={<Historia></Historia>}></Route>
         <Route path="/acerca" element={<Acerca></Acerca>}></Route>
       </Routes>
+      </HashRouter>
       
     </>
   )
