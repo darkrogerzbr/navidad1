@@ -7,7 +7,7 @@ import Historia from './historia'
 
 
 createRoot(document.getElementById('root')).render(
-  <BrowserRouter>
+  <BrowserRouter basename='/navidad1'>
   <App>
   </App>
   
